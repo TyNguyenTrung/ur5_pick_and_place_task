@@ -1,0 +1,4 @@
+[console_scripts]
+py_test_1 = camera_viewer.py_test_1:main
+py_test_2 = camera_viewer.rgb_subscriber:main
+

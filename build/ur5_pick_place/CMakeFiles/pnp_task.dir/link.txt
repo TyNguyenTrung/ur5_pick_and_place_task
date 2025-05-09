@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/pnp_task.dir/src/pnp_task.cpp.o -o pnp_task 

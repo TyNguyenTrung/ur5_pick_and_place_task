@@ -1,0 +1,88 @@
+[0.162s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/build/ur_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/trungty/Downloads/moveit2_UR5/src/ur_motion -DCMAKE_INSTALL_PREFIX=/home/trungty/Downloads/moveit2_UR5/install/ur_motion
+[0.221s] -- The C compiler identification is GNU 11.4.0
+[0.259s] -- The CXX compiler identification is GNU 11.4.0
+[0.263s] -- Detecting C compiler ABI info
+[0.312s] -- Detecting C compiler ABI info - done
+[0.317s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.317s] -- Detecting C compile features
+[0.317s] -- Detecting C compile features - done
+[0.319s] -- Detecting CXX compiler ABI info
+[0.375s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.379s] -- Detecting CXX compile features
+[0.380s] -- Detecting CXX compile features - done
+[0.384s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.642s] -- Found Python3: /home/trungty/anaconda3/bin/python3 (found version "3.12.7") found components: Interpreter 
+[0.753s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.841s] -- Found moveit_ros_planning_interface: 2.5.9 (/home/trungty/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[0.986s] -- Found Boost: /home/trungty/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found version "1.82.0") found components: date_time filesystem program_options system thread 
+[1.045s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.053s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.063s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.076s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.266s] -- Found Boost: /home/trungty/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found version "1.82.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.326s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.379s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.384s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.464s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.485s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.520s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.535s] -- Found Threads: TRUE  
+[1.574s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.578s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.601s] -- Found Boost: /home/trungty/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found version "1.82.0") found components: filesystem 
+[1.683s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.717s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.861s] -- Found Boost: /home/trungty/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found version "1.82.0") found components: system filesystem date_time program_options thread chrono 
+[1.883s] -- Found Boost: /home/trungty/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found version "1.82.0") found components: thread system filesystem regex date_time program_options 
+[1.901s] -- Found Boost: /home/trungty/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found version "1.82.0") found components: system filesystem date_time program_options thread 
+[1.927s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.927s] -- Configured cppcheck include dirs: 
+[1.927s] -- Configured cppcheck exclude dirs and/or files: 
+[1.929s] -- Added test 'lint_cmake' to check CMake code style
+[1.930s] -- Added test 'uncrustify' to check C / C++ code style
+[1.930s] -- Configured uncrustify additional arguments: 
+[1.931s] -- Added test 'xmllint' to check XML markup files
+[1.932s] -- Configuring done
+[1.949s] [33mCMake Warning at CMakeLists.txt:27 (add_executable):
+[1.949s]   Cannot generate a safe runtime search path for target pick_place because
+[1.949s]   files in some directories may conflict with libraries in implicit
+[1.949s]   directories:
+[1.949s] 
+[1.949s]     runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.949s]       /home/trungty/anaconda3/lib
+[1.949s]     runtime library [libcrypto.so.3] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.949s]       /home/trungty/anaconda3/lib
+[1.949s] 
+[1.949s]   Some of these libraries may not be found correctly.
+[1.949s] 
+[1.949s] [0m
+[1.950s] -- Generating done
+[1.957s] -- Build files have been written to: /home/trungty/Downloads/moveit2_UR5/build/ur_motion
+[1.965s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/build/ur_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/trungty/Downloads/moveit2_UR5/src/ur_motion -DCMAKE_INSTALL_PREFIX=/home/trungty/Downloads/moveit2_UR5/install/ur_motion
+[1.965s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/build/ur_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/ur_motion -- -j12 -l12
+[2.020s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/main.cpp.o[0m
+[6.250s] [100%] [32m[1mLinking CXX executable pick_place[0m
+[6.451s] [100%] Built target pick_place
+[6.460s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/build/ur_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/ur_motion -- -j12 -l12
+[6.461s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/build/ur_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/trungty/Downloads/moveit2_UR5/build/ur_motion
+[6.466s] -- Install configuration: ""
+[6.466s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/lib/ur_motion/pick_place
+[6.466s] -- Set runtime path of "/home/trungty/Downloads/moveit2_UR5/install/ur_motion/lib/ur_motion/pick_place" to ""
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ament_index/resource_index/package_run_dependencies/ur_motion
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ament_index/resource_index/parent_prefix_path/ur_motion
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/environment/ament_prefix_path.sh
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/environment/ament_prefix_path.dsv
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/environment/path.sh
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/environment/path.dsv
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/local_setup.bash
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/local_setup.sh
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/local_setup.zsh
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/local_setup.dsv
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/package.dsv
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ament_index/resource_index/packages/ur_motion
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/cmake/ur_motionConfig.cmake
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/cmake/ur_motionConfig-version.cmake
+[6.467s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/package.xml
+[6.469s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/build/ur_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/trungty/Downloads/moveit2_UR5/build/ur_motion

@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target motion_program[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/motion_program.dir/src/motion_program.cpp.o[0m
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::createTask()[m[K’:
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:197:36:[m[K [01;31m[Kerror: [m[K‘[01m[KGmake_unique[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kmake_unique[m[K’?
+  197 |   auto stage_detach_object = std:: [01;31m[KGmake_unique[m[K<mtc::stages::ModifyPlanningScene>("detach object");
+      |                                    [01;31m[K^~~~~~~~~~~~[m[K
+      |                                    [32m[Kmake_unique[m[K
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:197:81:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  197 |   auto stage_detach_object = std:: Gmake_unique<mtc::stages::ModifyPlanningScene[01;31m[K>[m[K("detach object");
+      |                                                                                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/motion_program.dir/build.make:76: CMakeFiles/motion_program.dir/src/motion_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

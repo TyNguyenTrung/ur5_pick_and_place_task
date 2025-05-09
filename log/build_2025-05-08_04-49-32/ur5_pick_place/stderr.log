@@ -1,0 +1,20 @@
+[33mCMake Warning at CMakeLists.txt:16 (add_executable):
+  Cannot generate a safe runtime search path for target ur5_pick_place
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/trungty/anaconda3/lib
+    runtime library [libcrypto.so.3] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/trungty/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/ur5_pick_place/src/ur5_pick_place.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene/planning_scene.hpp: No such file or directory
+    2 | #include [01;31m[K<moveit/planning_scene/planning_scene.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ur5_pick_place.dir/build.make:76: CMakeFiles/ur5_pick_place.dir/src/ur5_pick_place.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ur5_pick_place.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

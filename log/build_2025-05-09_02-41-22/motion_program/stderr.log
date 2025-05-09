@@ -1,0 +1,40 @@
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:32:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction[m[K’ is not a member of ‘[01m[Kmoveit_msgs[m[K’
+   32 |   rclcpp::Client<moveit_msgs::[01;31m[Kaction[m[K::ExecuteTaskSolution>::SharedPtr execute_client_;
+      |                               [01;31m[K^~~~~~[m[K
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:32:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |   rclcpp::Client<moveit_msgs::action::ExecuteTaskSolution[01;31m[K>[m[K::SharedPtr execute_client_;
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:32:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   32 |   rclcpp::Client<moveit_msgs::action::ExecuteTaskSolution>::[01;31m[KSharedPtr[m[K execute_client_;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:32:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecute_client_[m[K’ does not name a type
+   32 |   rclcpp::Client<moveit_msgs::action::ExecuteTaskSolution>::SharedPtr [01;31m[Kexecute_client_[m[K;
+      |                                                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:[m[K In constructor ‘[01m[KMTCTaskNode::MTCTaskNode(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecute_client_[m[K’ was not declared in this scope
+   38 |   [01;31m[Kexecute_client_[m[K = node_->create_client<moveit_msgs::action::ExecuteTaskSolution>("execute_task_solution");
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:38:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction[m[K’ is not a member of ‘[01m[Kmoveit_msgs[m[K’
+   38 |   execute_client_ = node_->create_client<moveit_msgs::[01;31m[Kaction[m[K::ExecuteTaskSolution>("execute_task_solution");
+      |                                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:38:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   38 |   execute_client_ = node_->[01;31m[Kcreate_client<moveit_msgs::action::ExecuteTaskSolution>[m[K("execute_task_solution");
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:38:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_client<<expression error> >(const char [22])[m[K’
+   38 |   execute_client_ = [01;31m[Knode_->create_client<moveit_msgs::action::ExecuteTaskSolution>("execute_task_solution")[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:38:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |   execute_client_ = [01;31m[Knode_->create_client<moveit_msgs::action::ExecuteTaskSolution>("execute_task_solution")[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/motion_program.dir/build.make:76: CMakeFiles/motion_program.dir/src/motion_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

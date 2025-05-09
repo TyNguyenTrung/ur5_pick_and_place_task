@@ -1,0 +1,32 @@
+[0.202s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/build/motion_program': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/Downloads/moveit2_UR5/install/ball_detector:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/motion_program -- -j12 -l12
+[0.226s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.338s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.358s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.359s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.363s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.381s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.405s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.407s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.515s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.575s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.575s]   By not providing "Findmoveit_task_constructor.cmake" in CMAKE_MODULE_PATH
+[0.575s]   this project has asked CMake to find a package configuration file provided
+[0.575s]   by "moveit_task_constructor", but CMake did not find one.
+[0.575s] 
+[0.575s]   Could not find a package configuration file provided by
+[0.575s]   "moveit_task_constructor" with any of the following names:
+[0.575s] 
+[0.575s]     moveit_task_constructorConfig.cmake
+[0.575s]     moveit_task_constructor-config.cmake
+[0.575s] 
+[0.575s]   Add the installation prefix of "moveit_task_constructor" to
+[0.575s]   CMAKE_PREFIX_PATH or set "moveit_task_constructor_DIR" to a directory
+[0.575s]   containing one of the above files.  If "moveit_task_constructor" provides a
+[0.575s]   separate development package or SDK, be sure it has been installed.
+[0.575s] 
+[0.575s] [0m
+[0.575s] -- Configuring incomplete, errors occurred!
+[0.575s] See also "/home/trungty/Downloads/moveit2_UR5/build/motion_program/CMakeFiles/CMakeOutput.log".
+[0.581s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.583s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/build/motion_program' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/Downloads/moveit2_UR5/install/ball_detector:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/motion_program -- -j12 -l12

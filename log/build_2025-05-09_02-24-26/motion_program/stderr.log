@@ -1,0 +1,4 @@
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::createTask()[m[K’:
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:121:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcurrent_state_ptr[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  121 |   mtc::Stage* [01;35m[Kcurrent_state_ptr[m[K = nullptr;
+      |               [01;35m[K^~~~~~~~~~~~~~~~~[m[K

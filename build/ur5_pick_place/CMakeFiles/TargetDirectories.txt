@@ -1,0 +1,10 @@
+/home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place/CMakeFiles/uninstall.dir
+/home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place/CMakeFiles/ur5_pick_place_uninstall.dir
+/home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place/CMakeFiles/ur5_pick_place.dir
+/home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place/CMakeFiles/test.dir
+/home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place/CMakeFiles/edit_cache.dir
+/home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place/CMakeFiles/rebuild_cache.dir
+/home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place/CMakeFiles/list_install_components.dir
+/home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place/CMakeFiles/install.dir
+/home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place/CMakeFiles/install/local.dir
+/home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place/CMakeFiles/install/strip.dir

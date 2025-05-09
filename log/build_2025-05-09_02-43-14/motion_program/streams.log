@@ -1,0 +1,26 @@
+[0.173s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/build/motion_program': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/motion_program -- -j12 -l12
+[0.213s] [35m[1mConsolidate compiler generated dependencies of target motion_program[0m
+[0.232s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_program.dir/src/motion_program.cpp.o[0m
+[5.349s] [100%] [32m[1mLinking CXX executable motion_program[0m
+[5.586s] [100%] Built target motion_program
+[5.595s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/build/motion_program' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/motion_program -- -j12 -l12
+[5.596s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/build/motion_program': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/trungty/Downloads/moveit2_UR5/build/motion_program
+[5.602s] -- Install configuration: ""
+[5.602s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/motion_program/lib/motion_program/motion_program
+[5.602s] -- Set runtime path of "/home/trungty/Downloads/moveit2_UR5/install/motion_program/lib/motion_program/motion_program" to ""
+[5.602s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/ament_index/resource_index/package_run_dependencies/motion_program
+[5.603s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/ament_index/resource_index/parent_prefix_path/motion_program
+[5.603s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/motion_program/environment/ament_prefix_path.sh
+[5.603s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/motion_program/environment/ament_prefix_path.dsv
+[5.603s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/motion_program/environment/path.sh
+[5.603s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/motion_program/environment/path.dsv
+[5.603s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/motion_program/local_setup.bash
+[5.603s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/motion_program/local_setup.sh
+[5.603s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/motion_program/local_setup.zsh
+[5.603s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/motion_program/local_setup.dsv
+[5.603s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/motion_program/package.dsv
+[5.603s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/ament_index/resource_index/packages/motion_program
+[5.603s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/motion_program/cmake/motion_programConfig.cmake
+[5.603s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/motion_program/cmake/motion_programConfig-version.cmake
+[5.603s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/motion_program/share/motion_program/package.xml
+[5.605s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/build/motion_program' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/trungty/Downloads/moveit2_UR5/build/motion_program

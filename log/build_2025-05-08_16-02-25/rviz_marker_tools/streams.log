@@ -1,0 +1,4 @@
+[0.018s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/rviz_marker_tools -- -j12 -l12
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[3.011s] [100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[3.089s] [100%] Built target rviz_marker_tools

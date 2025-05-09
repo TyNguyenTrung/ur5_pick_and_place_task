@@ -1,0 +1,33 @@
+[0.530s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/src/ball_detector': PYTHONPATH=/home/trungty/Downloads/moveit2_UR5/build/ball_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trungty/Downloads/moveit2_UR5/install/ball_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ball_detector build --build-base /home/trungty/Downloads/moveit2_UR5/build/ball_detector/build install --record /home/trungty/Downloads/moveit2_UR5/build/ball_detector/install.log --single-version-externally-managed install_data
+[0.667s] running egg_info
+[0.668s] creating ../../build/ball_detector/ball_detector.egg-info
+[0.668s] writing ../../build/ball_detector/ball_detector.egg-info/PKG-INFO
+[0.668s] writing dependency_links to ../../build/ball_detector/ball_detector.egg-info/dependency_links.txt
+[0.668s] writing entry points to ../../build/ball_detector/ball_detector.egg-info/entry_points.txt
+[0.668s] writing requirements to ../../build/ball_detector/ball_detector.egg-info/requires.txt
+[0.668s] writing top-level names to ../../build/ball_detector/ball_detector.egg-info/top_level.txt
+[0.668s] writing manifest file '../../build/ball_detector/ball_detector.egg-info/SOURCES.txt'
+[0.669s] reading manifest file '../../build/ball_detector/ball_detector.egg-info/SOURCES.txt'
+[0.669s] writing manifest file '../../build/ball_detector/ball_detector.egg-info/SOURCES.txt'
+[0.669s] running build
+[0.669s] running build_py
+[0.670s] creating /home/trungty/Downloads/moveit2_UR5/build/ball_detector/build
+[0.670s] creating /home/trungty/Downloads/moveit2_UR5/build/ball_detector/build/lib
+[0.670s] creating /home/trungty/Downloads/moveit2_UR5/build/ball_detector/build/lib/ball_detector
+[0.670s] copying ball_detector/__init__.py -> /home/trungty/Downloads/moveit2_UR5/build/ball_detector/build/lib/ball_detector
+[0.670s] copying ball_detector/ball_detector.py -> /home/trungty/Downloads/moveit2_UR5/build/ball_detector/build/lib/ball_detector
+[0.670s] running install
+[0.670s] running install_lib
+[0.670s] creating /home/trungty/Downloads/moveit2_UR5/install/ball_detector/lib/python3.10/site-packages/ball_detector
+[0.670s] copying /home/trungty/Downloads/moveit2_UR5/build/ball_detector/build/lib/ball_detector/__init__.py -> /home/trungty/Downloads/moveit2_UR5/install/ball_detector/lib/python3.10/site-packages/ball_detector
+[0.671s] copying /home/trungty/Downloads/moveit2_UR5/build/ball_detector/build/lib/ball_detector/ball_detector.py -> /home/trungty/Downloads/moveit2_UR5/install/ball_detector/lib/python3.10/site-packages/ball_detector
+[0.671s] byte-compiling /home/trungty/Downloads/moveit2_UR5/install/ball_detector/lib/python3.10/site-packages/ball_detector/__init__.py to __init__.cpython-310.pyc
+[0.671s] byte-compiling /home/trungty/Downloads/moveit2_UR5/install/ball_detector/lib/python3.10/site-packages/ball_detector/ball_detector.py to ball_detector.cpython-310.pyc
+[0.671s] running install_data
+[0.671s] copying package.xml -> /home/trungty/Downloads/moveit2_UR5/install/ball_detector/share/ball_detector
+[0.671s] running install_egg_info
+[0.672s] Copying ../../build/ball_detector/ball_detector.egg-info to /home/trungty/Downloads/moveit2_UR5/install/ball_detector/lib/python3.10/site-packages/ball_detector-0.0.0-py3.10.egg-info
+[0.673s] running install_scripts
+[0.685s] Installing detect_ball script to /home/trungty/Downloads/moveit2_UR5/install/ball_detector/lib/ball_detector
+[0.685s] writing list of installed files to '/home/trungty/Downloads/moveit2_UR5/build/ball_detector/install.log'
+[0.708s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/src/ball_detector' returned '0': PYTHONPATH=/home/trungty/Downloads/moveit2_UR5/build/ball_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trungty/Downloads/moveit2_UR5/install/ball_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ball_detector build --build-base /home/trungty/Downloads/moveit2_UR5/build/ball_detector/build install --record /home/trungty/Downloads/moveit2_UR5/build/ball_detector/install.log --single-version-externally-managed install_data

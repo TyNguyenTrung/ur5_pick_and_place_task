@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:11 (find_package):
+  By not providing "Findmoveit_task_constructor.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "moveit_task_constructor", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "moveit_task_constructor" with any of the following names:
+
+    moveit_task_constructorConfig.cmake
+    moveit_task_constructor-config.cmake
+
+  Add the installation prefix of "moveit_task_constructor" to
+  CMAKE_PREFIX_PATH or set "moveit_task_constructor_DIR" to a directory
+  containing one of the above files.  If "moveit_task_constructor" provides a
+  separate development package or SDK, be sure it has been installed.
+
+[0m

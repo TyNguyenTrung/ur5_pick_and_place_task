@@ -1,0 +1,16 @@
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/lib/ur5_pick_place/pnp_task
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ament_index/resource_index/package_run_dependencies/ur5_pick_place
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ament_index/resource_index/parent_prefix_path/ur5_pick_place
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ur5_pick_place/environment/ament_prefix_path.sh
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ur5_pick_place/environment/ament_prefix_path.dsv
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ur5_pick_place/environment/path.sh
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ur5_pick_place/environment/path.dsv
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ur5_pick_place/local_setup.bash
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ur5_pick_place/local_setup.sh
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ur5_pick_place/local_setup.zsh
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ur5_pick_place/local_setup.dsv
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ur5_pick_place/package.dsv
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ament_index/resource_index/packages/ur5_pick_place
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ur5_pick_place/cmake/ur5_pick_placeConfig.cmake
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ur5_pick_place/cmake/ur5_pick_placeConfig-version.cmake
+/home/trungty/Downloads/moveit2_UR5/install/ur5_pick_place/share/ur5_pick_place/package.xml

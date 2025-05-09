@@ -1,0 +1,7 @@
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::createTask()[m[K’:
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:123:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state_ptr[m[K’ was not declared in this scope
+  123 |   [01;31m[Kcurrent_state_ptr[m[K = stage_state_current.get();
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/motion_program.dir/build.make:76: CMakeFiles/motion_program.dir/src/motion_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

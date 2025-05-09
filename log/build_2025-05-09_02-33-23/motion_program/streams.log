@@ -1,0 +1,56 @@
+[0.185s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/build/motion_program': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/motion_program -- -j12 -l12
+[0.210s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.313s] -- Found moveit_ros_planning_interface: 2.5.9 (/home/trungty/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[0.321s] -- Found Boost: /home/trungty/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found version "1.82.0") found components: date_time filesystem program_options system thread 
+[0.341s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.343s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.346s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.366s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.487s] -- Found Boost: /home/trungty/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found version "1.82.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.509s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.528s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.530s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.616s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.645s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.658s] -- Found Boost: /home/trungty/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found version "1.82.0") found components: filesystem 
+[0.683s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.700s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.773s] -- Found Boost: /home/trungty/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found version "1.82.0") found components: system filesystem date_time program_options thread chrono 
+[0.792s] -- Found Boost: /home/trungty/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found version "1.82.0") found components: thread system filesystem regex date_time program_options 
+[0.805s] -- Found Boost: /home/trungty/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake (found version "1.82.0") found components: system filesystem date_time program_options thread 
+[0.823s] -- Found moveit_task_constructor_core: 0.1.3 (/home/trungty/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+[0.868s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.939s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/trungty/Downloads/moveit2_UR5/src/motion_program/include>
+[0.939s] -- Configured cppcheck exclude dirs and/or files: 
+[0.939s] -- Added test 'lint_cmake' to check CMake code style
+[0.939s] -- Added test 'uncrustify' to check C / C++ code style
+[0.939s] -- Configured uncrustify additional arguments: 
+[0.940s] -- Added test 'xmllint' to check XML markup files
+[0.940s] -- Configuring done
+[0.958s] [33mCMake Warning at CMakeLists.txt:20 (add_executable):
+[0.958s]   Cannot generate a safe runtime search path for target motion_program
+[0.958s]   because files in some directories may conflict with libraries in implicit
+[0.958s]   directories:
+[0.958s] 
+[0.958s]     runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[0.959s]       /home/trungty/anaconda3/lib
+[0.959s]     runtime library [libcrypto.so.3] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[0.959s]       /home/trungty/anaconda3/lib
+[0.959s] 
+[0.959s]   Some of these libraries may not be found correctly.
+[0.959s] 
+[0.959s] [0m
+[0.959s] -- Generating done
+[0.964s] -- Build files have been written to: /home/trungty/Downloads/moveit2_UR5/build/motion_program
+[0.989s] [35m[1mConsolidate compiler generated dependencies of target motion_program[0m
+[1.012s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_program.dir/src/motion_program.cpp.o[0m
+[1.346s] [01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kmoveit_msgs/action/execute_task_solution.hpp: No such file or directory
+[1.346s]     7 | #include [01;31m[K<moveit_msgs/action/execute_task_solution.hpp>[m[K
+[1.346s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.346s] compilation terminated.
+[1.356s] gmake[2]: *** [CMakeFiles/motion_program.dir/build.make:76: CMakeFiles/motion_program.dir/src/motion_program.cpp.o] Error 1
+[1.357s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_program.dir/all] Error 2
+[1.357s] gmake: *** [Makefile:146: all] Error 2
+[1.358s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/build/motion_program' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/motion_program -- -j12 -l12

@@ -1,0 +1,22 @@
+[0.175s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/build/ur_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/ur_motion -- -j12 -l12
+[0.230s] [100%] Built target pick_place
+[0.238s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/build/ur_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/ur_motion -- -j12 -l12
+[0.240s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/build/ur_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/trungty/Downloads/moveit2_UR5/build/ur_motion
+[0.246s] -- Install configuration: ""
+[0.246s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/lib/ur_motion/pick_place
+[0.246s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ament_index/resource_index/package_run_dependencies/ur_motion
+[0.246s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ament_index/resource_index/parent_prefix_path/ur_motion
+[0.246s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/environment/ament_prefix_path.sh
+[0.246s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/environment/ament_prefix_path.dsv
+[0.246s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/environment/path.sh
+[0.246s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/environment/path.dsv
+[0.247s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/local_setup.bash
+[0.247s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/local_setup.sh
+[0.247s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/local_setup.zsh
+[0.247s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/local_setup.dsv
+[0.247s] -- Installing: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/package.dsv
+[0.247s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ament_index/resource_index/packages/ur_motion
+[0.247s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/cmake/ur_motionConfig.cmake
+[0.247s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/cmake/ur_motionConfig-version.cmake
+[0.247s] -- Up-to-date: /home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/package.xml
+[0.248s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/build/ur_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/trungty/Downloads/moveit2_UR5/build/ur_motion

@@ -1,0 +1,37 @@
+[0.524s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/src/camera_viewer': PYTHONPATH=/home/trungty/Downloads/moveit2_UR5/build/camera_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_viewer build --build-base /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/build install --record /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/install.log --single-version-externally-managed install_data
+[0.662s] running egg_info
+[0.663s] creating ../../build/camera_viewer/camera_viewer.egg-info
+[0.663s] writing ../../build/camera_viewer/camera_viewer.egg-info/PKG-INFO
+[0.663s] writing dependency_links to ../../build/camera_viewer/camera_viewer.egg-info/dependency_links.txt
+[0.663s] writing entry points to ../../build/camera_viewer/camera_viewer.egg-info/entry_points.txt
+[0.663s] writing requirements to ../../build/camera_viewer/camera_viewer.egg-info/requires.txt
+[0.663s] writing top-level names to ../../build/camera_viewer/camera_viewer.egg-info/top_level.txt
+[0.663s] writing manifest file '../../build/camera_viewer/camera_viewer.egg-info/SOURCES.txt'
+[0.664s] reading manifest file '../../build/camera_viewer/camera_viewer.egg-info/SOURCES.txt'
+[0.665s] writing manifest file '../../build/camera_viewer/camera_viewer.egg-info/SOURCES.txt'
+[0.665s] running build
+[0.665s] running build_py
+[0.665s] creating /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/build
+[0.665s] creating /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/build/lib
+[0.665s] creating /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/build/lib/camera_viewer
+[0.665s] copying camera_viewer/rgb_subscriber.py -> /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/build/lib/camera_viewer
+[0.665s] copying camera_viewer/__init__.py -> /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/build/lib/camera_viewer
+[0.665s] running install
+[0.665s] running install_lib
+[0.666s] creating /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages/camera_viewer
+[0.666s] copying /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/build/lib/camera_viewer/rgb_subscriber.py -> /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages/camera_viewer
+[0.666s] copying /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/build/lib/camera_viewer/__init__.py -> /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages/camera_viewer
+[0.666s] byte-compiling /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages/camera_viewer/rgb_subscriber.py to rgb_subscriber.cpython-310.pyc
+[0.667s] byte-compiling /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages/camera_viewer/__init__.py to __init__.cpython-310.pyc
+[0.667s] running install_data
+[0.667s] creating /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/share/ament_index
+[0.667s] creating /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/share/ament_index/resource_index
+[0.667s] creating /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/share/ament_index/resource_index/packages
+[0.667s] copying resource/camera_viewer -> /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/share/ament_index/resource_index/packages
+[0.667s] copying package.xml -> /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/share/camera_viewer
+[0.667s] running install_egg_info
+[0.668s] Copying ../../build/camera_viewer/camera_viewer.egg-info to /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages/camera_viewer-0.0.0-py3.10.egg-info
+[0.669s] running install_scripts
+[0.681s] Installing rgb_subscriber script to /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/camera_viewer
+[0.681s] writing list of installed files to '/home/trungty/Downloads/moveit2_UR5/build/camera_viewer/install.log'
+[0.698s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/src/camera_viewer' returned '0': PYTHONPATH=/home/trungty/Downloads/moveit2_UR5/build/camera_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_viewer build --build-base /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/build install --record /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/install.log --single-version-externally-managed install_data

@@ -1,0 +1,10 @@
+[0.175s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place -- -j12 -l12
+[0.218s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5_pick_place.dir/src/ur5_pick_place.cpp.o[0m
+[0.378s] [01m[K/home/trungty/Downloads/moveit2_UR5/src/ur5_pick_place/src/ur5_pick_place.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene/planning_scene.hpp: No such file or directory
+[0.378s]     2 | #include [01;31m[K<moveit/planning_scene/planning_scene.hpp>[m[K
+[0.378s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.378s] compilation terminated.
+[0.387s] gmake[2]: *** [CMakeFiles/ur5_pick_place.dir/build.make:76: CMakeFiles/ur5_pick_place.dir/src/ur5_pick_place.cpp.o] Error 1
+[0.387s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ur5_pick_place.dir/all] Error 2
+[0.387s] gmake: *** [Makefile:146: all] Error 2
+[0.388s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/ur5_pick_place -- -j12 -l12

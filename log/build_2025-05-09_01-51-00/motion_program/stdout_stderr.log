@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target motion_program[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/motion_program.dir/src/motion_program.cpp.o[0m
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/task_constructor/task.h: No such file or directory
+    4 | #include [01;31m[K<moveit/task_constructor/task.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/motion_program.dir/build.make:76: CMakeFiles/motion_program.dir/src/motion_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

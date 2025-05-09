@@ -1,0 +1,19 @@
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:75:15:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto success[m[K’
+   75 |   auto const [[01;31m[Ksuccess[m[K, plan] = [&move_group_interface]{
+      |               [01;31m[K^~~~~~~[m[K
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:49:15:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::tuple_element<0, const std::pair<bool, moveit::planning_interface::MoveGroupInterface::Plan> >::type&& success[m[K’
+   49 |   auto const [[01;36m[Ksuccess[m[K, plan] = [&move_group_interface]{
+      |               [01;36m[K^~~~~~~[m[K
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:75:24:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto plan[m[K’
+   75 |   auto const [success, [01;31m[Kplan[m[K] = [&move_group_interface]{
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:49:24:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::tuple_element<1, const std::pair<bool, moveit::planning_interface::MoveGroupInterface::Plan> >::type&& plan[m[K’
+   49 |   auto const [success, [01;36m[Kplan[m[K] = [&move_group_interface]{
+      |                        [01;36m[K^~~~[m[K
+[01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:75:14:[m[K [01;35m[Kwarning: [m[Kunused structured binding declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   75 |   auto const [01;35m[K[success, plan][m[K = [&move_group_interface]{
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/motion_program.dir/build.make:76: CMakeFiles/motion_program.dir/src/motion_program.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_program.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

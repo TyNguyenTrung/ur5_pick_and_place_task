@@ -1,0 +1,25 @@
+[0.405s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/src/camera_viewer': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/trungty/Downloads/moveit2_UR5/build/camera_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_viewer build --build-base /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/build install --record /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/install.log --single-version-externally-managed install_data
+[0.543s] running egg_info
+[0.543s] writing ../../build/camera_viewer/camera_viewer.egg-info/PKG-INFO
+[0.543s] writing dependency_links to ../../build/camera_viewer/camera_viewer.egg-info/dependency_links.txt
+[0.543s] writing entry points to ../../build/camera_viewer/camera_viewer.egg-info/entry_points.txt
+[0.543s] writing requirements to ../../build/camera_viewer/camera_viewer.egg-info/requires.txt
+[0.544s] writing top-level names to ../../build/camera_viewer/camera_viewer.egg-info/top_level.txt
+[0.545s] reading manifest file '../../build/camera_viewer/camera_viewer.egg-info/SOURCES.txt'
+[0.552s] writing manifest file '../../build/camera_viewer/camera_viewer.egg-info/SOURCES.txt'
+[0.552s] running build
+[0.552s] running build_py
+[0.552s] copying camera_viewer/rgb_subscriber.py -> /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/build/lib/camera_viewer
+[0.552s] running install
+[0.552s] running install_lib
+[0.552s] copying /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/build/lib/camera_viewer/rgb_subscriber.py -> /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages/camera_viewer
+[0.553s] byte-compiling /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages/camera_viewer/rgb_subscriber.py to rgb_subscriber.cpython-310.pyc
+[0.553s] running install_data
+[0.553s] running install_egg_info
+[0.555s] removing '/home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages/camera_viewer-0.0.0-py3.10.egg-info' (and everything under it)
+[0.555s] Copying ../../build/camera_viewer/camera_viewer.egg-info to /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages/camera_viewer-0.0.0-py3.10.egg-info
+[0.556s] running install_scripts
+[0.569s] Installing py_test_1 script to /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/camera_viewer
+[0.569s] Installing py_test_2 script to /home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/camera_viewer
+[0.569s] writing list of installed files to '/home/trungty/Downloads/moveit2_UR5/build/camera_viewer/install.log'
+[0.584s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/src/camera_viewer' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/trungty/Downloads/moveit2_UR5/build/camera_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_viewer build --build-base /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/build install --record /home/trungty/Downloads/moveit2_UR5/build/camera_viewer/install.log --single-version-externally-managed install_data

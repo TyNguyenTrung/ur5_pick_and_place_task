@@ -1,0 +1,16 @@
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/lib/ur_motion/pick_place
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ament_index/resource_index/package_run_dependencies/ur_motion
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ament_index/resource_index/parent_prefix_path/ur_motion
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/environment/ament_prefix_path.sh
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/environment/ament_prefix_path.dsv
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/environment/path.sh
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/environment/path.dsv
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/local_setup.bash
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/local_setup.sh
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/local_setup.zsh
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/local_setup.dsv
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/package.dsv
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ament_index/resource_index/packages/ur_motion
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/cmake/ur_motionConfig.cmake
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/cmake/ur_motionConfig-version.cmake
+/home/trungty/Downloads/moveit2_UR5/install/ur_motion/share/ur_motion/package.xml

@@ -1,0 +1,23 @@
+[0.184s] Invoking command in '/home/trungty/Downloads/moveit2_UR5/build/motion_program': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/Downloads/moveit2_UR5/install/ball_detector:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/motion_program -- -j12 -l12
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target motion_program[0m
+[0.244s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_program.dir/src/motion_program.cpp.o[0m
+[3.216s] [01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.216s] [01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:75:15:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto success[m[K’
+[3.217s]    75 |   auto const [[01;31m[Ksuccess[m[K, plan] = [&move_group_interface]{
+[3.217s]       |               [01;31m[K^~~~~~~[m[K
+[3.217s] [01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:49:15:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::tuple_element<0, const std::pair<bool, moveit::planning_interface::MoveGroupInterface::Plan> >::type&& success[m[K’
+[3.217s]    49 |   auto const [[01;36m[Ksuccess[m[K, plan] = [&move_group_interface]{
+[3.217s]       |               [01;36m[K^~~~~~~[m[K
+[3.217s] [01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:75:24:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto plan[m[K’
+[3.217s]    75 |   auto const [success, [01;31m[Kplan[m[K] = [&move_group_interface]{
+[3.217s]       |                        [01;31m[K^~~~[m[K
+[3.217s] [01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:49:24:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::tuple_element<1, const std::pair<bool, moveit::planning_interface::MoveGroupInterface::Plan> >::type&& plan[m[K’
+[3.217s]    49 |   auto const [success, [01;36m[Kplan[m[K] = [&move_group_interface]{
+[3.217s]       |                        [01;36m[K^~~~[m[K
+[3.217s] [01m[K/home/trungty/Downloads/moveit2_UR5/src/motion_program/src/motion_program.cpp:75:14:[m[K [01;35m[Kwarning: [m[Kunused structured binding declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.217s]    75 |   auto const [01;35m[K[success, plan][m[K = [&move_group_interface]{
+[3.217s]       |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.817s] gmake[2]: *** [CMakeFiles/motion_program.dir/build.make:76: CMakeFiles/motion_program.dir/src/motion_program.cpp.o] Error 1
+[4.817s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_program.dir/all] Error 2
+[4.817s] gmake: *** [Makefile:146: all] Error 2
+[4.818s] Invoked command in '/home/trungty/Downloads/moveit2_UR5/build/motion_program' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/trungty/Downloads/moveit2_UR5/install/camera_viewer:/home/trungty/Downloads/moveit2_UR5/install/ball_detector:/home/trungty/ws_moveit2/install/moveit_configs_utils:/home/trungty/ws_moveit2/install/launch_param_builder:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/trungty/Downloads/moveit2_UR5/build/motion_program -- -j12 -l12
